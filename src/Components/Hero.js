@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-// import cover from '../';
+import cover from '../';
 
 class Hero extends Component{
   render(){
@@ -14,24 +14,29 @@ class Hero extends Component{
           <div className="col-md-3 col-sm-3 col-lg-3" >
             <div style={imgStyle}>
             </div>
-            {/* <p class="text-primary"> Welcome! to movies library.</p> */}
-            {/* <p> Here you can find movies from our library</p> */}
+             <p class="text-primary"> Welcome! to movies library.</p>
+              <p> Here you can find movies from our library</p> 
           </div>
-          {/* <div className="col-md-3 col-sm-3 col-lg-3" >
+           <div className="col-md-3 col-sm-3 col-lg-3" >
             <img src={cover} alt="" style={imgStyle}/>
-            {/* <p class="text-primary"> Welcome! to movies library.</p> */}
-            {/* <p> Here you can find movies from our library</p> */}
-          {/* </div> */}
-          {/* <div className="col-md-3 col-sm-3 col-lg-3" > */}
-            {/* <img src={cover} alt="" style={imgStyle}/> */}
-            {/* <p class="text-primary"> Welcome! to movies library.</p> */}
-            {/* <p> Here you can find movies from our library</p> */}
-          {/* </div> */}
-          {/* <div className="col-md-3 col-sm-3 col-lg-3" > */}
-            {/* <img src={cover} alt="" style={imgStyle}/> */}
-            {/* <p class="text-primary"> Welcome! to movies library.</p> */}
-            {/* <p> Here you can find movies from our library</p> */}
-          {/* </div> */}
+              <p class="text-primary"> Welcome! to movies library.</p>
+              <p> Here you can find movies from our library</p>
+            </div>
+            <div className="col-md-3 col-sm-3 col-lg-3" >
+             <img src={cover} alt="" style={imgStyle}/>
+              <p class="text-primary"> Welcome! to movies library.</p>
+              <p> Here you can find movies from our library</p>
+            </div>
+          
+           <div className="col-md-3 col-sm-3 col-lg-3" > 
+            
+         <img src={cover} alt="" style={imgStyle}/>
+            
+           <p class="text-primary"> Welcome! to movies library.</p>
+            
+           <p> Here you can find movies from our library</p>
+          
+           </div>
         </div>
       </div>
       </section>
